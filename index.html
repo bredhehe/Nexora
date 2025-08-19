@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexora</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="entryOverlay">
+  <div class="overlayContent">
+    <h1>Welcome to Bleppy's Hub</h1>
+    <p>Click anywhere to enter</p>
+  </div>
+</div>
+
+  <video id="bgVideo" autoplay muted loop>
+    <source src="Backround.mp4" type="video/mp4">
+  </video>
+  <div id="vcrOverlay"></div>
+  <canvas id="particles"></canvas>
+
+  <div class="hero">
+    <h1>Stash Studios</h1>
+    <div class="badges">
+      <span class="badge"></span>
+      <span class="badge"></span>
+      <span class="badge"></span>
+    </div>
+    <p>All in one black & white link platform.</p>
+    <a href="Bleppy/bleppy.html">Visit Bleppy's Bio</a>
+  </div>
+
+  <div class="staff">
+    <a href="Connor/connor.html" class="staff-card">
+      <img src="https://cdn.discordapp.com/avatars/842161430912434196/5bc6cc96e35c1918fb61668655facf99.webp?size=1024" alt="Staff">
+      <h3>Connor</h3>
+      <p>Co-Owner</p>
+    </a>
+    <a class="staff-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Staff">
+      <h3>Unknown</h3>
+      <p>soon...</p>
+    </a>
+    <a class="staff-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Staff">
+      <h3>Unknown</h3>
+      <p>soon...</p>
+    </a>
+    <a class="staff-card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Staff">
+      <h3>Unknown</h3>
+      <p>soon...</p>
+    </a>
+  </div>
+
+  <div id="musicPlayer">
+    <div id="musicVisualizer">
+      <div class="music-bar"></div>
+      <div class="music-bar"></div>
+      <div class="music-bar"></div>
+      <div class="music-bar"></div>
+      <div class="music-bar"></div>
+    </div>
+    <div id="currentSong">Overseas Remake - Connor</div>
+    <audio id="bgMusic" src="Music.mp3" loop></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
